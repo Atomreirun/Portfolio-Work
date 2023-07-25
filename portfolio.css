@@ -1,0 +1,160 @@
+/*font-family: 'Playfair Display', serif;
+font-family: 'Poppins', sans-serif;*/
+:root {
+  --branding-color: #6c63ff;
+  --secondary-color: rgb(211, 194, 212);
+  --heading-font-family: "Playfair Display", serif;
+  --default-font-family: "Poppins", sans-serif;
+}
+
+body {
+  font-family: var(--default-font-family);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: black;
+  font-family: var(--heading-font-family);
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 96px;
+  line-height: 1.5;
+}
+
+h2 {
+  font-size: 55px;
+}
+
+p {
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.hero {
+  background: var(--secondary-color);
+  text-align: center;
+  padding: 160px 20px;
+}
+
+.hero p {
+  font-size: 36px;
+  font-weight: bold;
+  margin: 0;
+  color: #272142;
+}
+
+.hero h2 {
+  font-family: var(--default-font-family);
+  font-weight: normal;
+  line-height: 1.5;
+  font-size: 24px;
+}
+.singing-picture {
+  border: solid thick rgb(211, 194, 212);
+
+  border-radius: 10px;
+}
+
+.about-section {
+  padding: 160px 20px;
+}
+.about-section h1 {
+  font-size: 64px;
+  line-height: 70px;
+}
+
+.about-section h2 {
+  font-size: 18px;
+  font-family: var(--default-font-family);
+}
+
+.about-picture {
+  border-radius: 20px;
+  padding-left: 70px;
+}
+
+.about-section-content {
+  margin: 50px;
+}
+
+.content-container {
+  padding: 160px 20px;
+}
+.content h1 {
+  font-size: 55px;
+  line-height: 70px;
+  margin-top: 3px;
+}
+.content h2 {
+  font-size: 18px;
+  font-family: var(--default-font-family);
+}
+
+.content h3 {
+  font-size: 24px;
+  line-height: 1.5;
+  font-family: var(--default-font-family);
+}
+
+.content p {
+  font-size: 14px;
+}
+.content {
+  margin: 30px;
+}
+
+.btn-branding {
+  background: var(--branding-color);
+  text-align: center;
+  border-radius: 4px;
+  color: white;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+}
+.btn-branding-outline {
+  color: var(--branding-color);
+  border: 1px solid var(--branding-color);
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+}
+
+.project-description {
+  padding: 120px 60px;
+}
+
+@media (max-width: 900px) {
+  h1 {
+    font-size: 44px;
+    line-height: 2;
+  }
+  h2 {
+    font-size: 35px;
+  }
+  .hero {
+    padding: 80px 20px;
+  }
+  .about-section {
+    text-align: center;
+    padding: 0;
+  }
+
+  .content {
+    text-align: center;
+    padding: 0;
+  }
+
+  .project-description {
+    padding: 0;
+    text-align: center;
+  }
+}
